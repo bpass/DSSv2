@@ -1,0 +1,62 @@
+<HTML>
+<!--if this file is loaded assume the user wishes to project regional data-->
+
+<HEAD>
+
+  <TITLE>Regional Selector</TITLE>
+
+</HEAD>
+
+<BODY>
+<!-- # include virtual="/stylesheets/universal.css"-->
+  <!--#include virtual="/include/dss_header.html"-->
+  
+  <H4>1) Move and resize box around the region you are interested in.</H4>
+
+  &nbsp;&nbsp;&nbsp;&nbsp; To move the box, simply click the mouse inside the box and then drag.
+  <br><br>
+
+  &nbsp;&nbsp;&nbsp;&nbsp; To resize the box, place the mouse cursor on the edge of the box.<br>
+  &nbsp;&nbsp;&nbsp;&nbsp; When the correct cursor appears, click and drag.<br><br>
+
+  <H4>2) Make Preservation and Data Type selections in the appropriate boxes</H4><br>
+
+  <APPLET code = "DSSRegional.class" width=720 height=465 >
+      
+    <param name = "title0" value = "Stereographic">
+    <param name = "location0" value = "ImgHTML/Stereographic.html">
+    
+    <param name = "title1" value = "Lambert Conformal Conic">
+    <param name = "location1" value = "ImgHTML/LambConfCon.html">
+    
+    <param name = "title2" value ="Mercator">
+    <param name = "location2" value = "ImgHTML/Mercator.html">
+    
+    <param name = "title3" value = "Lambert Azimuthal Equal Area">
+    <param name = "location3" value = 
+                  "ImgHTML/LambAzEqArea.html">
+    <param name = "title4" value = "Albers Equal Area Conic">
+    <param name = "location4" value = 
+                  "ImgHTML/Albers.html">
+    <param name = "title5" value = "Any Equal Area or Cylindrical Equal Area">
+    <param name = "location5" value = 
+                  "ResultsHTML/AnyEqualArea.html">
+    <param name = "title6" value = "Transverse Mercator">
+    <param name = "location6" value = "ImgHTML/TransMerc.html">
+    
+    <param name = "title7" value = "Cylindrical Equal Area">
+    <param name = "location7" value = "ResultsHTML/CylEqArea.html">
+   
+  </APPLET>
+
+<P><a href = "./DSSApplet.html"><b>Back to DSS Main Page</b></a><br>
+<b>Note: </b> If you are having problems using this utility, 
+      check <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;that a pop-up blocker is not enabled.
+
+<hr align="LEFT" size="1" width="600" color="#804040" noshade>
+<!--#include virtual="/include/footer.html"-->
+ 
+
+</BODY>
+</HTML>
