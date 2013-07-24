@@ -135,7 +135,7 @@ public class Tutorial extends Applet implements MouseListener, MouseMotionListen
             poppers = new String[]{"The DSS Applet provides recommendations for small scale data map projections./Results are based on small scale projection models and USGS research ./Additional infomation can be displayed by clicking more>>>",
                                      "Global data sets of small scale data are projected on every continent and region./The preservation of area and shape with respect to the shape of the earth is the/only concideration. Additional infomation can be displayed by clicking more>>>",
                                     "Continental projections are based on symetry with respect to various latitudinal and/longitudinal axes and shape of the continent with repect to its coastline. Additional /infomation can be displayed by clicking more>>>",
-                                    "Regional projections are based on the dimensions of the region being mapped, /and the location of the region with respect to the proximity to the Earth’s poles. /Additional information can be displayed by clicking more>>>"};
+                                    "Regional projections are based on the dimensions of the region being mapped, /and the location of the region with respect to the proximity to the Earth's poles. /Additional information can be displayed by clicking more>>>"};
             megaGraph = new String[] {"DSS/Applet","Global","Continental","Regional","Area","Shape",
             "Compromise","Area","Shape","North South","East West","North America/South America/Africa",
             "Northern or/Southern Poles","Asia/Europe/Austrailia","North America/South America/Africa",

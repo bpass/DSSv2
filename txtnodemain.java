@@ -161,7 +161,7 @@ public class txtnodemain extends Applet implements MouseListener, MouseMotionLis
         //The DSS Applet is a java applet designed to provide recommendations for small scale data map projections. These recommendations are based on the properties selected by you, the user. The recomedations are based on small scale projection models and USGS research . Additional infomation can be displayed by clicking more>>>
          //mygraph.renderPop("The DSS Applet provides recommendations for small scale data map projections./Results are based on small scale projection models and USGS research ./Additional infomation can be displayed by clicking more>>>",highlight); 
          //mygraph.renderPop("Global data sets of small scale data are projected on every continent and region./The preservation of area and shape with respect to the shape of the earth is the/only concideration. Additional infomation can be displayed by clicking more>>>",highlight); 
-         mygraph.renderPop("Regional projections are based on the dimensions of the region being mapped, /and the location of the region with respect to the proximity to the Earth’s poles. /Additional information can be displayed by clicking more>>>",highlight); 
+         mygraph.renderPop("Regional projections are based on the dimensions of the region being mapped, /and the location of the region with respect to the proximity to the Earth's poles. /Additional information can be displayed by clicking more>>>",highlight); 
 
         }
         mygraph.GC.theG = temp;
